@@ -2,4 +2,4 @@
 
 Location app for nearest covid-19 testing sites
 
-[https://mwcovidtestingsitelocator.netlify.app/]Link
+[Link](https://mwcovidtestingsitelocator.netlify.app/)
