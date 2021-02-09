@@ -14,12 +14,14 @@ async function getData(data) {
 
 getData("testing_sites.json")
   .then((data) => {
-    // var mayLayer = L.geoJSON().addTo(map);
-    // mayLayer.addData(data);
+    var options = {
+      enableHighAccuracy: true,
+      timeout: 5000,
+      maximumAge: 0,
+    };
 
     function success(pos) {
       var crd = pos.coords;
-      // L.marker([crd.latitude, crd.longitude]).addTo(map);
       var sLat = crd.latitude;
       var sLong = crd.longitude;
       var nearest = leafletKnn(L.geoJson(data)).nearest(
@@ -28,7 +30,6 @@ getData("testing_sites.json")
       );
       var eLat = nearest[0].lat;
       var eLong = nearest[0].lon;
-      console.log(crd, nearest);
 
       L.mapquest.directions().route({
         start: [sLat, sLong],
@@ -41,16 +42,5 @@ getData("testing_sites.json")
     }
 
     navigator.geolocation.getCurrentPosition(success, error, options);
-
-    // console.log(L.geoJSON(data));
-    // nearest.forEach((d) => {
-    //   console.log(d.layer.feature.properties.NAME);
-    // });
   })
   .catch((err) => console.log(err));
-
-var options = {
-  enableHighAccuracy: true,
-  timeout: 5000,
-  maximumAge: 0,
-};
