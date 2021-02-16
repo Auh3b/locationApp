@@ -12,6 +12,26 @@ async function getData(data) {
   return responseData;
 }
 
+let disclaimer = L.control({ position: "bottomleft" });
+
+disclaimer.onAdd = function (map) {
+  let div = L.DomUtil.create("div", "info legend");
+  div.innerHTML = `<i id="disclaimer-tag"class="fas fa-exclamation-circle"></i>
+<span id="disclaimer-info" class="hide">Please note that the route might not be the most optimal however the location is</span>
+  `;
+  return div;
+};
+
+disclaimer.addTo(map);
+
+document.getElementById("disclaimer-tag").addEventListener("click", () => {
+  if (document.getElementById("disclaimer-info").className === "hide") {
+    document.getElementById("disclaimer-info").className = "show";
+  } else {
+    document.getElementById("disclaimer-info").className = "hide";
+  }
+});
+
 getData("testing_sites.json")
   .then((data) => {
     var options = {
@@ -53,7 +73,7 @@ getData("testing_sites.json")
 
       close.addEventListener("click", () => {
         document.getElementById("map").style.zIndex = 1;
-        document.getElementById("dest").style.transform = "translateY(0px)";
+        document.getElementById("dest").style.transform = "translateY(10px)";
       });
     }
     let travelTime, calDistance;
@@ -62,22 +82,35 @@ getData("testing_sites.json")
       calDistance = route.route.distance;
       document.getElementById("time").textContent = `${travelTime}`;
       document.getElementById("distance").textContent = `${calDistance}`;
+
+      // markers
+      var redMarker = L.AwesomeMarkers.icon({
+        icon: "coffee",
+        markerColor: "red",
+        extraClasses: "fas fa-user",
+      });
+      var greenMarker = L.AwesomeMarkers.icon({
+        icon: "coffee",
+        markerColor: "green",
+        extraClasses: "fas fa-hospital-symbol",
+      });
+
       var DirectionsLayerWithCustomMarkers = L.mapquest.DirectionsLayer.extend({
         createStartMarker: function (location, stopNumber) {
-          return L.marker(location.latLng, {
-            iconOptions: {
-              size: "sm",
-              primaryColor: "#1fc715",
-              secondaryColor: "#1fc715",
-              symbol: "A",
-            },
-          }).bindPopup("Your Location");
+          return L.marker(location.latLng, { icon: redMarker })
+            .bindPopup("Your Location")
+            .openPopup();
         },
 
         createEndMarker: function (location, stopNumber) {
-          return L.marker(location.latLng, {}).on("click", showDetails);
+          return L.marker(location.latLng, { icon: greenMarker }).on(
+            "click",
+            showDetails
+          );
         },
       });
+
+      console.log(document.getElementsByTagName("i"));
 
       var directionsLayer = new DirectionsLayerWithCustomMarkers({
         directionsResponse: route,
