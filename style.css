@@ -17,11 +17,6 @@ body {
   color: #f4f4f4;
   padding: 0 0.5rem;
   border-radius: 50px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 10px;
-
-  align-items: center;
 }
 
 i:hover {
@@ -61,7 +56,7 @@ i:hover {
 }
 
 #destination p:last-child {
-  margin-bottom: 50rem;
+  margin-bottom: 3rem;
   border-bottom: none;
 }
 
@@ -82,6 +77,10 @@ i:hover {
   }
 
   .info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    align-items: center;
     background: #292828;
     color: #f4f4f4;
     margin: 1rem 0;

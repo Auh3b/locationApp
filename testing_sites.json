@@ -1,320 +1,44 @@
 {
-  "type": "FeatureCollection",
-  "name": "testing_sites",
-  "crs": {
-    "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Hospital",
-        "NAME": "Ekwendeni",
-        "DISTRICT": "Mzimba",
-        "ADDRESS": "P.O. Box 19\nEkwendeni"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.88367, -11.37172] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Health Centre",
-        "NAME": "Malamulo",
-        "DISTRICT": "Thyolo",
-        "ADDRESS": "Private Bag 2\nMakwasa"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.10942, -16.17144] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Hospital",
-        "NAME": "Nkhoma",
-        "DISTRICT": "Lilongwe",
-        "ADDRESS": "P O Box 48\nNkhoma \nLilong"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.10308, -14.04406] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Health Centre",
-        "NAME": "AREA 25",
-        "DISTRICT": "Lilongwe",
-        "ADDRESS": "P.O. Box 40131\nLilongwe 4"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.77389, -13.89242] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Balaka",
-        "DISTRICT": "Balaka",
-        "ADDRESS": "P.O. Box 138\nBoxalaka"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.94953, -14.98514] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Hospital",
-        "NAME": "Bottom",
-        "DISTRICT": "Lilongwe",
-        "ADDRESS": "P.O. Box 1274\nLilongwe"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.77478, -13.99103] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Chikwawa",
-        "DISTRICT": "Chikwawa",
-        "ADDRESS": "P.O. Box 32\nChikwawa"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.79275, -16.0235] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Chiradzulu",
-        "DISTRICT": "Chiradzulu",
-        "ADDRESS": "P.O. Box 21\nChiradzulu"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.18756, -15.69708] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Chitipa",
-        "DISTRICT": "Chitipa",
-        "ADDRESS": "P.O. Box 95\nChitipa"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.26533, -9.70197] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Dedza",
-        "DISTRICT": "Dedza",
-        "ADDRESS": "P.O. Box 136\nDedza"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.33354, -14.38359] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Dowa",
-        "DISTRICT": "Dowa",
-        "ADDRESS": "P.O. Box 25\nDowa"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.93689, -13.65508] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Karonga",
-        "DISTRICT": "Karonga",
-        "ADDRESS": "Private Bag 1\nKaronga"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.91139, -9.955] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Kasungu",
-        "DISTRICT": "Kasungu",
-        "ADDRESS": "P.O. Box 19\nKasungu"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.48053, -13.03611] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Central Hospital",
-        "NAME": "Lilongwe",
-        "DISTRICT": "Lilongwe",
-        "ADDRESS": "P.O. Box 149\nLilongwe"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.78586, -13.97686] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Machinga",
-        "DISTRICT": "Machinga",
-        "ADDRESS": "P.O. Box 44\nMachinga"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.22614, -15.06222] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Mangochi",
-        "DISTRICT": "Mangochi",
-        "ADDRESS": "P.O. Box 42\nMangochi"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.26481, -14.48197] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Mchinji",
-        "DISTRICT": "Mchinji",
-        "ADDRESS": "P.O. Box 36 \nMchinji"
-      },
-      "geometry": { "type": "Point", "coordinates": [32.88739, -13.80267] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Mulanje",
-        "DISTRICT": "Mulanje",
-        "ADDRESS": "P.O. Box 227 Mulanje"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.50758, -16.02564] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Mwanza",
-        "DISTRICT": "Mwanza",
-        "ADDRESS": "P.O. Box 80\nMwanza"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.51133, -15.59111] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Mzimba",
-        "DISTRICT": "Mzimba",
-        "ADDRESS": "P.O. Box 131\nMzimba"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.58428, -11.89808] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Central Hospital",
-        "NAME": "Mzuzu",
-        "DISTRICT": "Mzimba",
-        "ADDRESS": "Private Bag 209\nMzuzu"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.9955, -11.42786] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Nkhata Bay",
-        "DISTRICT": "Nkhata Bay",
-        "ADDRESS": "P.O. Box 14\nNkhata-Bay"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.2955, -11.60223] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Nkhotakota",
-        "DISTRICT": "Nkhotakota",
-        "ADDRESS": "P.O. Box 50\nNkhotakota"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.29239, -12.92894] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Nsanje",
-        "DISTRICT": "Nsanje",
-        "ADDRESS": "P.O. Box 30\nNsanje"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.25989, -16.91769] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Ntcheu",
-        "DISTRICT": "Ntcheu",
-        "ADDRESS": "Private Bag 5"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.63831, -14.81689] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Ntchisi",
-        "DISTRICT": "Ntchisi",
-        "ADDRESS": "P.O. Box 44\nNtchisi"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.91103, -13.36333] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Central Hospital",
-        "NAME": "Queen Elizabeth",
-        "DISTRICT": "Blantyre",
-        "ADDRESS": "P.O. Box 95\nBoxlantyre"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.02072, -15.80208] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Rumphi",
-        "DISTRICT": "Rumphi",
-        "ADDRESS": "P.O. Box 225\nRumphi"
-      },
-      "geometry": { "type": "Point", "coordinates": [33.85417, -11.01972] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Salima",
-        "DISTRICT": "Salima",
-        "ADDRESS": "P.O. Box 53\nSalima"
-      },
-      "geometry": { "type": "Point", "coordinates": [34.42183, -13.76178] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "District Hospital",
-        "NAME": "Thyolo",
-        "DISTRICT": "Thyolo",
-        "ADDRESS": "P.O. Box 21\nThyolo"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.15197, -16.07002] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "TYPE": "Central Hospital",
-        "NAME": "Zomba",
-        "DISTRICT": "Zomba",
-        "ADDRESS": "P.O. Box 21\nZomBoxa"
-      },
-      "geometry": { "type": "Point", "coordinates": [35.31286, -15.39914] }
-    }
-  ]
+"type": "FeatureCollection",
+"name": "testingSites",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "TYPE": "Hospital", "NAME": "Ekwendeni", "FACILITY_I": "0504", "DISTRICT": "Mzimba", "ADDRESS": "P.O. Box 19\nEkwendeni", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.88367, -11.37172 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Health Centre", "NAME": "Malamulo", "FACILITY_I": "3111", "DISTRICT": "Thyolo", "ADDRESS": "Private Bag 2\nMakwasa", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.10942, -16.17144 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Hospital", "NAME": "Nkhoma", "FACILITY_I": "1538", "DISTRICT": "Lilongwe", "ADDRESS": "P O Box 48\nNkhoma \nLilong", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.10308, -14.04406 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Health Centre", "NAME": "AREA 25", "FACILITY_I": "1502", "DISTRICT": "Lilongwe", "ADDRESS": "P.O. Box 40131\nLilongwe 4", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.77389, -13.89242 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Balaka", "FACILITY_I": "3601", "DISTRICT": "Balaka", "ADDRESS": "P.O. Box 138\nBoxalaka", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.94953, -14.98514 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Hospital", "NAME": "Bottom", "FACILITY_I": "1503", "DISTRICT": "Lilongwe", "ADDRESS": "P.O. Box 1274\nLilongwe", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.77478, -13.99103 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Chikwawa", "FACILITY_I": "3303", "DISTRICT": "Chikwawa", "ADDRESS": "P.O. Box 32\nChikwawa", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.79275, -16.0235 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Chiradzulu", "FACILITY_I": "2801", "DISTRICT": "Chiradzulu", "ADDRESS": "P.O. Box 21\nChiradzulu", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.18756, -15.69708 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Chitipa", "FACILITY_I": "0102", "DISTRICT": "Chitipa", "ADDRESS": "P.O. Box 95\nChitipa", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.26533, -9.70197 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Dedza", "FACILITY_I": "1707", "DISTRICT": "Dedza", "ADDRESS": "P.O. Box 136\nDedza", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.33354, -14.38359 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Dowa", "FACILITY_I": "1307", "DISTRICT": "Dowa", "ADDRESS": "P.O. Box 25\nDowa", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.93689, -13.65508 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Karonga", "FACILITY_I": "0206", "DISTRICT": "Karonga", "ADDRESS": "Private Bag 1\nKaronga", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.91139, -9.955 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Kasungu", "FACILITY_I": "1008", "DISTRICT": "Kasungu", "ADDRESS": "P.O. Box 19\nKasungu", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.48053, -13.03611 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Central Hospital", "NAME": "Lilongwe", "FACILITY_I": "1520", "DISTRICT": "Lilongwe", "ADDRESS": "P.O. Box 149\nLilongwe", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.78586, -13.97686 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Machinga", "FACILITY_I": "2605", "DISTRICT": "Machinga", "ADDRESS": "P.O. Box 44\nMachinga", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.22614, -15.06222 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Mangochi", "FACILITY_I": "2517", "DISTRICT": "Mangochi", "ADDRESS": "P.O. Box 42\nMangochi", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.26481, -14.48197 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Mchinji", "FACILITY_I": "1609", "DISTRICT": "Mchinji", "ADDRESS": "P.O. Box 36 \nMchinji", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 32.88739, -13.80267 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Mulanje", "FACILITY_I": "3211", "DISTRICT": "Mulanje", "ADDRESS": "P.O. Box 227 Mulanje", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.50758, -16.02564 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Mwanza", "FACILITY_I": "3008", "DISTRICT": "Mwanza", "ADDRESS": "P.O. Box 80\nMwanza", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.51133, -15.59111 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Mzimba", "FACILITY_I": "0532", "DISTRICT": "Mzimba", "ADDRESS": "P.O. Box 131\nMzimba", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.58428, -11.89808 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Central Hospital", "NAME": "Mzuzu", "FACILITY_I": "0538", "DISTRICT": "Mzimba", "ADDRESS": "Private Bag 209\nMzuzu", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.9955, -11.42786 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Nkhata Bay", "FACILITY_I": "0315", "DISTRICT": "Nkhata Bay", "ADDRESS": "P.O. Box 14\nNkhata-Bay", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.2955, -11.60223 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Nkhotakota", "FACILITY_I": "1111", "DISTRICT": "Nkhotakota", "ADDRESS": "P.O. Box 50\nNkhotakota", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.29239, -12.92894 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Nsanje", "FACILITY_I": "3409", "DISTRICT": "Nsanje", "ADDRESS": "P.O. Box 30\nNsanje", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.25989, -16.91769 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Ntcheu", "FACILITY_I": "1827", "DISTRICT": "Ntcheu", "ADDRESS": "Private Bag 5", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.63831, -14.81689 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Ntchisi", "FACILITY_I": "1209", "DISTRICT": "Ntchisi", "ADDRESS": "P.O. Box 44\nNtchisi", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.91103, -13.36333 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Central Hospital", "NAME": "Queen Elizabeth", "FACILITY_I": "2926", "DISTRICT": "Blantyre", "ADDRESS": "P.O. Box 95\nBoxlantyre", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.02072, -15.80208 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Rumphi", "FACILITY_I": "0417", "DISTRICT": "Rumphi", "ADDRESS": "P.O. Box 225\nRumphi", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.85417, -11.01972 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Salima", "FACILITY_I": "1415", "DISTRICT": "Salima", "ADDRESS": "P.O. Box 53\nSalima", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.42183, -13.76178 ] } },
+{ "type": "Feature", "properties": { "TYPE": "District Hospital", "NAME": "Thyolo", "FACILITY_I": "3121", "DISTRICT": "Thyolo", "ADDRESS": "P.O. Box 21\nThyolo", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.15197, -16.07002 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Central Hospital", "NAME": "Zomba", "FACILITY_I": "2722", "DISTRICT": "Zomba", "ADDRESS": "P.O. Box 21\nZomBoxa", "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.31286, -15.39914 ] } },
+{ "type": "Feature", "properties": { "TYPE": null, "NAME": "Partners in Health", "FACILITY_I": null, "DISTRICT": "Lilongwe", "ADDRESS": null, "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.787877056189132, -14.023317593319463 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Cinical Research", "NAME": "MW Liverpool Welcome Trust", "FACILITY_I": null, "DISTRICT": "Blantyre", "ADDRESS": null, "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.021987992531429, -15.804587312912101 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Medical College", "NAME": "College of Medicine", "FACILITY_I": null, "DISTRICT": "Blantyre", "ADDRESS": null, "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.015616562773047, -15.801707333307027 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Medical Centre", "NAME": "Wezi", "FACILITY_I": null, "DISTRICT": "Rumphi", "ADDRESS": null, "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 34.013736072623807, -11.46559463645664 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Military Facility", "NAME": "Kamuzu Barracks", "FACILITY_I": null, "DISTRICT": "Lilongwe", "ADDRESS": null, "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 33.818368898604191, -13.978145790029808 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Health Centre", "NAME": "Dream", "FACILITY_I": null, "DISTRICT": "Blantyre", "ADDRESS": null, "C19-TS": "y" }, "geometry": { "type": "Point", "coordinates": [ 35.025738500816878, -15.81265078903095 ] } }
+]
 }

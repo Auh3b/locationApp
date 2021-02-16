@@ -110,8 +110,6 @@ getData("testing_sites.json")
         },
       });
 
-      console.log(document.getElementsByTagName("i"));
-
       var directionsLayer = new DirectionsLayerWithCustomMarkers({
         directionsResponse: route,
       }).addTo(map);
