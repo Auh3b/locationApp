@@ -17,7 +17,9 @@ body {
   color: #f4f4f4;
   padding: 0 0.5rem;
   border-radius: 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
 
   align-items: center;
 }
