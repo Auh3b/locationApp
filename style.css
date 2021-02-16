@@ -17,7 +17,9 @@ body {
   color: #f4f4f4;
   padding: 0 0.5rem;
   border-radius: 50px;
-  transition: all 1s ease-in;
+  display: flex;
+
+  align-items: center;
 }
 
 i:hover {
@@ -28,9 +30,7 @@ i:hover {
   display: none;
 }
 .show {
-  transition-property: display;
-  transition-duration: 1s;
-  display: inline-block;
+  display: inline;
 }
 
 #header {
@@ -77,5 +77,15 @@ i:hover {
     margin: 0;
     padding: 0.5rem;
     font-size: 0.7em;
+  }
+
+  .info {
+    background: #292828;
+    color: #f4f4f4;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
   }
 }
