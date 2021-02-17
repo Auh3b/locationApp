@@ -1,10 +1,19 @@
 L.mapquest.key = "Fyx8V6FkpICCAWMY83YKee1FRHQhXDjw";
 
+let light = L.mapquest.tileLayer("light"),
+  streets = L.mapquest.tileLayer("map");
+
 let map = L.mapquest.map("map", {
   center: [-13.96692, 33.78725],
-  layers: L.mapquest.tileLayer("map"),
+  layers: [light, streets],
   zoom: 12,
 });
+var baseMaps = {
+  Streets: streets,
+  Grayscale: light,
+};
+
+L.control.layers(baseMaps).addTo(map);
 
 async function getData(data) {
   let response = await fetch(data);
@@ -118,7 +127,7 @@ getData("testing_sites.json")
     // show
     function showDetails() {
       document.getElementById("map").style.zIndex = -1;
-      document.getElementById("dest").style.transform = "translateY(-330px)";
+      document.getElementById("dest").style.transform = "translateY(-300px)";
     }
 
     function error(err) {
